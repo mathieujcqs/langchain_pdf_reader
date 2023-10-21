@@ -1,0 +1,6 @@
+page_title: "Ask your PDF"
+header_text: "Ask your PDF"
+file_uploader_text: "Upload your pdf"
+question_placeholder: "Ask a question about your PDF:"
+chunk_size: 1000
+chunk_overlap: 200
