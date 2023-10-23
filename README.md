@@ -8,7 +8,7 @@ That is why this project leverages the power of *Langchain* and *FAISS*.
 Using Langchain, this application is able to parse the entire PDF create a knowledge base using FAISS, and then make a semantic search on the knowledge base using the user's query.
 
 ## The Knowledge Base
-To create the knowledge base we need two things. First, split the text into chunks that are long enough to keep the context of the PDF. Then, an algorithm that transforms those chunks into vectors which enables the semantic/similarity search.
+To create the knowledge base we need two things. First, split the text into chunks that are long enough to keep the context of the PDF. Then, an algorithm that transforms those chunks into vectors enables the semantic/similarity search.
 
 The first is done using *Lagchain text_splitter* and the last via *FAISS*.
 
@@ -27,3 +27,5 @@ Then load the project dependencies via `pip install -r requirements.txt`.
 Don't forget to create a `.env` file in your folder that will contain your OpenAI API key with the variable name: `OPENAI_API_KEY`
 
 After that, you can launch the app via `streamlit run app.py`.
+
+Special thanks to *Alejandro AO - Software & Ai*
