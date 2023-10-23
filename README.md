@@ -2,7 +2,7 @@
 
 This short project's aim is to ask questions about a PDF using ChatGPT.
 
-As you may know, ChatGPT (3.5 or 4) input is limited in terms of tokens. Therefore, giving ChatGPT an entire PDF file and asking questions about it is not easy. You may face issues regarding text segmentation or summarization. Both of the latest techniques lead to a lack of context in the end.
+As you may know, ChatGPT (3.5 or 4) input is limited in terms of tokens. Therefore, giving ChatGPT an entire PDF file and asking questions about it is not easy. You may face issues regarding text segmentation or summarization. Both of these techniques lead to a lack of context in the end.
 
 That is why this project leverages the power of *Langchain* and *FAISS*.
 Using Langchain, this application is able to parse the entire PDF create a knowledge base using FAISS, and then make a semantic search on the knowledge base using the user's query.
